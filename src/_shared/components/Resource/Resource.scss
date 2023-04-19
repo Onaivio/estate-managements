@@ -1,0 +1,91 @@
+.layout-menu.btn {
+    background-color: #fff;
+
+    #map,
+    #list {
+        height: 1.6em;
+        margin: 0 0.5em;
+        cursor: pointer;
+        fill: #e4e5e6;
+    }
+
+    .active {
+        fill: #20a8d8 !important;
+    }
+}
+
+.react-tabs__tab {
+    color: #20a8d8;
+
+    &--selected {
+        border-radius: 0 !important;
+    }
+}
+
+.view {
+    position: relative;
+
+    .close-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-weight: 600;
+    }
+
+    h6.label {
+        opacity: 0.3;
+        font-weight: 700;
+        font-size: 0.8rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    p.book-text {
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    p.big-text,
+    .big-text {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .status {
+        font-size: 0.9rem;
+
+        .badge-danger {
+            padding: 0.5em 1em;
+            color: #721c24;
+            background-color: #f8d7da;
+        }
+
+        .badge-success {
+            padding: 0.5em 1em;
+            color: #155724;
+            background-color: #d4edda;
+        }
+    }
+
+    .card {
+        border: none !important;
+        min-height: 40px;
+        background-color: transparent !important;
+    }
+    .table-responsive {
+        overflow-x: unset !important;
+    }
+
+    .card-body {
+        display: grid;
+        border: none !important;
+        padding: 20px 20px 10px 20px !important;
+        background-color: white !important;
+        min-height: 20px;
+        flex: unset !important;
+        box-shadow: 0 3px 30px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        border-radius: 5px;
+    }
+}

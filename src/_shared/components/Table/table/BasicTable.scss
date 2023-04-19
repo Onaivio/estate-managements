@@ -1,0 +1,27 @@
+.basic-table {
+    .width-sm {
+        width: 13em;
+    }
+    .table {
+        border: none;
+
+        tr th,
+        tr td {
+            border: none;
+            vertical-align: unset;
+            &:last-child {
+                width: 14%;
+            }
+        }
+    }
+
+    td .badge-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+    }
+
+    td .badge-success {
+        color: #155724;
+        background-color: #d4edda;
+    }
+}

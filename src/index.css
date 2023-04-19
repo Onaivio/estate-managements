@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.body-bg{
+  background-color: #F9F9F9;
+}
+
+.text-xx{
+  font-size: 10px;
+}
+.bg-top{
+  background: #F0E6C4;
+
+}
+.p-bg-color{
+  background-color: #D6F3E9;
+}
+.p-color{
+color: #495057;
+}
+.button-bg{
+  background-color: #185C66;
+}
+.shad{
+  /* box-shadow: 0px 0px 0px 70px #bbb; */
+
+}
+.text-xx{
+  font-size: 10px;
+}
+.color-theme{
+  color:#185C66;
+}
+.bg-customm{
+  background: rgba(54, 113, 122, 0.1)
+}
+
+.wrapper-class {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.editor-class {
+  background-color:#fff;
+  padding: 1rem;
+  border: 1px solid #eee;
+}
+.toolbar-class {
+  border: 1px solid #ccc;
+}
+
+
+td, th {
+ 
+
+  padding: 6px;
+}
+
+.ant-pagination-item{
+  border: none !important;
+  background-color: #f4f4f4 !important;
+
+
+}
+.ant-pagination-item-active{
+  background-color:#185C66 !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+
+}
+
+.ant-pagination-item-active a {
+  color: #fff !important;
+}
+
+.ant-table-pagination-right {
+  
+  background-color: #f4f4f4 !important;
+  padding: 1em !important;
+  border-radius: 40px !important;
+  /* width: 26%; */
+
+}
+.ant-pagination{
+  justify-content: flex-end !important;
+margin-left: 74% !important;
+}
+.ant-pagination-item-link{
+  /* background-color: red !important; */
+  background-color:transparent !important;
+  border: none !important;
+  color: #000 !important;
+
+}
+
+.activee{
+  border-bottom:2px solid #185C66 ;
+  padding-bottom: 5px;
+}
+.sdp {
+ width: 14rem !important;
+ height: 17rem !important;
+}
+
+.sdp--dates-grid {
+  display: grid;
+  gap: 1px !important;
+  grid-template-columns: repeat(7,1fr);
+  justify-items: center;
+  margin: 0.1rem 0 0 !important;
+  font-size: 12px !important;
+}
